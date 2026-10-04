@@ -18,15 +18,18 @@
 
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crossed%20Swords.png" width="30" /> 貢献 · Contribuições
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="30" /> Contribuições
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output-3d/samurai3d.webp" width="100%" alt="Samurai 3D fatiando o gráfico de contribuições"/>
+  <img src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/daily/daily.svg" width="100%" alt="Minhas contribuições do último ano, cada dia em um jogo ou cena diferente"/>
+</p>
+<p align="center">
+  <sub>🎮 Muda todo dia · seg <b>Space Invaders</b> · ter <b>Pac-Man</b> · qua <b>Cidade</b> · qui <b>Galaga</b> · sex <b>Bomberman</b> · sáb <b>GitWorld</b> · dom <b>Jardim de sakura</b></sub>
 </p>
 
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Japanese%20Castle.png" width="30" /> 自己紹介 · Sobre mim
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Japanese%20Castle.png" width="30" /> Sobre mim
 
 ```js
 const brenno = {
@@ -47,7 +50,7 @@ const brenno = {
 
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="30" /> 技術 · Tecnologias
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="30" /> Tecnologias
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,go,git,docker,mysql&perline=8" />
@@ -62,7 +65,7 @@ const brenno = {
 
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="30" /> 研究 · Pesquisa atual
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="30" /> Pesquisa atual
 
 <table>
   <tr>
@@ -83,7 +86,7 @@ const brenno = {
 
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" /> 統計 · Estatísticas
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" /> Estatísticas
 
 <p align="center">
   <img height="165" src="./profile/top-langs.svg" />
