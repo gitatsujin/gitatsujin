@@ -21,11 +21,7 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crossed%20Swords.png" width="30" /> 貢献 · Contribuições
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/samurai-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/samurai.svg" />
-    <img alt="Samurai cortando o gráfico de contribuições" src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/samurai-dark.svg" width="100%" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output-3d/samurai3d.webp" width="100%" alt="Samurai 3D fatiando o gráfico de contribuições"/>
 </p>
 
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
