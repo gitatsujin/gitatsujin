@@ -83,16 +83,12 @@ const brenno = {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" /> Estatísticas
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gitatsujin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=pt-br" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gitatsujin&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&locale=pt-br" />
+  <img height="170" src="./profile/stats.svg" />
+  <img height="170" src="./profile/top-langs.svg" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=gitatsujin&theme=tokyonight&hide_border=true&locale=pt_BR" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gitatsujin&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 </p>
 
 ---
