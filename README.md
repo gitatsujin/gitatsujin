@@ -1,10 +1,6 @@
 <!-- ===================== 侍 HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,55:3d0c11,100:c8102e&height=220&section=header&text=Brenno%20Soares%20de%20Aguiar&fontSize=40&fontColor=f5efe3&animation=fadeIn&fontAlignY=38&desc=Engenharia%20de%20Software%20•%20UFG%20•%20IA%20Generativa&descAlignY=58&descSize=17" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/hanko.svg" width="76" alt="Selo hanko 達人"/>
+  <img src="./assets/header.svg" width="100%" alt="Brenno Soares de Aguiar · gitatsujin 義達人"/>
 </p>
 
 <h3 align="center">
@@ -12,10 +8,6 @@
 </h3>
 <p align="center">
   <sub><i>gi</i> (義, justiça) + <i>tatsujin</i> (達人, mestre) — o mestre justo · ou, para os íntimos, o mestre do <b>git</b></sub>
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+JP&weight=700&size=22&duration=3200&pause=900&color=E0262F&center=true&vCenter=true&width=720&lines=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D+%C2%B7+Bem-vindo+ao+meu+dojo;Estudante+de+Engenharia+de+Software+%40+UFG;%E7%A0%94%E7%A9%B6%E8%80%85+%C2%B7+Pesquisador+no+CEIA;%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88+%C2%B7+Agentes+inteligentes+para+ES;%E7%B6%99%E7%B6%9A%E3%81%AF%E5%8A%9B%E3%81%AA%E3%82%8A+%C2%B7+A+const%C3%A2ncia+%C3%A9+poder" alt="Texto animado"/></a>
 </p>
 
 <p align="center">
@@ -98,8 +90,7 @@ const brenno = {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" /> 統計 · Estatísticas
 
 <p align="center">
-  <img height="170" src="./profile/stats.svg" />
-  <img height="170" src="./profile/top-langs.svg" />
+  <img height="165" src="./profile/top-langs.svg" />
 </p>
 
 <p align="center">
