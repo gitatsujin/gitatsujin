@@ -1,6 +1,10 @@
-<!-- ===================== HEADER ===================== -->
+<!-- ===================== 侍 HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Brenno%20Soares%20de%20Aguiar&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Engenharia%20de%20Software%20•%20UFG%20•%20Pesquisador%20em%20IA%20Generativa&descAlignY=58&descSize=17" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,55:3d0c11,100:c8102e&height=220&section=header&text=Brenno%20Soares%20de%20Aguiar&fontSize=40&fontColor=f5efe3&animation=fadeIn&fontAlignY=38&desc=Engenharia%20de%20Software%20•%20UFG%20•%20IA%20Generativa&descAlignY=58&descSize=17" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/hanko.svg" width="76" alt="Selo hanko 達人"/>
 </p>
 
 <h3 align="center">
@@ -11,24 +15,35 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=720&lines=Estudante+de+Engenharia+de+Software+%40+UFG;Pesquisador+bolsista+no+CEIA+%F0%9F%A7%A0;Criando+agentes+inteligentes+para+ES+%F0%9F%A4%96;IA+Generativa+aplicada+ao+desenvolvimento+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+JP&weight=700&size=22&duration=3200&pause=900&color=E0262F&center=true&vCenter=true&width=720&lines=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D+%C2%B7+Bem-vindo+ao+meu+dojo;Estudante+de+Engenharia+de+Software+%40+UFG;%E7%A0%94%E7%A9%B6%E8%80%85+%C2%B7+Pesquisador+no+CEIA;%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88+%C2%B7+Agentes+inteligentes+para+ES;%E7%B6%99%E7%B6%9A%E3%81%AF%E5%8A%9B%E3%81%AA%E3%82%8A+%C2%B7+A+const%C3%A2ncia+%C3%A9+poder" alt="Texto animado"/></a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/brenno-soares-1b2a273a3/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:brennosoares10@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/gitatsujin?tab=followers"><img src="https://img.shields.io/github/followers/gitatsujin?style=for-the-badge&logo=github&logoColor=white&label=Seguidores&color=2c5364"/></a>
+  <a href="mailto:brennosoares10@gmail.com"><img src="https://img.shields.io/badge/Email-C8102E?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/gitatsujin?tab=followers"><img src="https://img.shields.io/github/followers/gitatsujin?style=for-the-badge&logo=github&logoColor=white&label=Seguidores&color=1a1a1a"/></a>
 </p>
 
----
+<p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="30" /> Sobre mim
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crossed%20Swords.png" width="30" /> 貢献 · Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/samurai-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/samurai.svg" />
+    <img alt="Samurai cortando o gráfico de contribuições" src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/samurai-dark.svg" width="100%" />
+  </picture>
+</p>
+
+<p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Japanese%20Castle.png" width="30" /> 自己紹介 · Sobre mim
 
 ```js
 const brenno = {
   nome: "Brenno Soares de Aguiar",
+  alcunha: "gitatsujin · 義達人",
   local: "Goiânia, GO 🇧🇷",
   formacao: "Engenharia de Software @ Universidade Federal de Goiás (UFG)",
   pesquisa: "Bolsista no Centro de Excelência em Inteligência Artificial (CEIA)",
@@ -42,9 +57,9 @@ const brenno = {
 - 🤖 Desenvolvo **agentes inteligentes** que atuam em tarefas da Engenharia de Software, no projeto de **IA Generativa para ES**
 - 🤝 Aberto a colaborar em **projetos de IA, pesquisa e open source**
 
----
+<p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="30" /> Tecnologias
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="30" /> 技術 · Tecnologias
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,go,git,docker,mysql&perline=8" />
@@ -57,9 +72,9 @@ const brenno = {
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white"/>
 </p>
 
----
+<p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" width="30" /> Pesquisa atual
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="30" /> 研究 · Pesquisa atual
 
 <table>
   <tr>
@@ -69,18 +84,18 @@ const brenno = {
       Desenvolvimento de agentes inteligentes baseados em LLMs capazes de atuar em tarefas
       da Engenharia de Software, apoiando e automatizando etapas do ciclo de desenvolvimento.
       <br/><br/>
-      <img src="https://img.shields.io/badge/LLMs-2c5364?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Agentes%20de%20IA-203a43?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Engenharia%20de%20Software-0f2027?style=flat-square"/>
+      <img src="https://img.shields.io/badge/LLMs-3d0c11?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Agentes%20de%20IA-6e1018?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Engenharia%20de%20Software-a3111f?style=flat-square"/>
     </td>
   </tr>
 </table>
 
 > 🚧 Projetos pessoais chegando em breve.
 
----
+<p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" /> Estatísticas
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" /> 統計 · Estatísticas
 
 <p align="center">
   <img height="170" src="./profile/stats.svg" />
@@ -88,26 +103,18 @@ const brenno = {
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=gitatsujin&theme=tokyonight&hide_border=true&locale=pt_BR" />
+  <img src="https://streak-stats.demolab.com?user=gitatsujin&hide_border=true&locale=pt_BR&background=0D1117&ring=E0262F&fire=E0262F&currStreakNum=F5EFE3&sideNums=F5EFE3&currStreakLabel=E0262F&sideLabels=D4A017&dates=8B949E&stroke=3D0C11" />
 </p>
 
----
+<p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="30" /> Contribuições
-
+<!-- ===================== 侍 FOOTER ===================== -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/github-snake.svg" />
-    <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/output/github-snake-dark.svg" width="100%" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Cherry%20Blossom.png" width="34" />
 </p>
-
----
-
-<!-- ===================== FOOTER ===================== -->
+<h3 align="center">継続は力なり</h3>
 <p align="center">
-  <i>"Construindo o futuro da Engenharia de Software com IA."</i>
+  <i>keizoku wa chikara nari</i> — “a constância é poder”
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:c8102e,45:3d0c11,100:0d0d0d&height=120&section=footer" width="100%"/>
