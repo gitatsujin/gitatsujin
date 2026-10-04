@@ -1,0 +1,92 @@
+name: 🎮 Rodízio diário do perfil
+
+# Seg: Space Invaders · Ter: Pac-Man · Qua: Cidade (Skyline) · Qui: Galaga
+# Sex: Bomberman · Sáb: GitWorld · Dom: Jardim de sakura
+
+on:
+  schedule:
+    - cron: "7 3 * * *"        # todo dia às 00:07 de Brasília
+  workflow_dispatch:            # rodar na mão (pode forçar um item)
+    inputs:
+      item:
+        description: "Forçar um item (deixe vazio para usar o do dia)"
+        required: false
+        default: ""
+        type: choice
+        options: ["", invaders, pacman, skyline, galaga, bomberman, gitworld, sakura]
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Escolher o item do dia
+        id: pick
+        run: |
+          ITEM="${{ inputs.item }}"
+          if [ -z "$ITEM" ]; then
+            case "$(TZ=America/Sao_Paulo date +%u)" in
+              1) ITEM=invaders ;;
+              2) ITEM=pacman ;;
+              3) ITEM=skyline ;;
+              4) ITEM=galaga ;;
+              5) ITEM=bomberman ;;
+              6) ITEM=gitworld ;;
+              7) ITEM=sakura ;;
+            esac
+          fi
+          echo "Hoje: $ITEM"
+          echo "item=$ITEM" >> "$GITHUB_OUTPUT"
+          mkdir -p dist
+
+      # ---- jogos japoneses (Commit Arcade), em vermelho e preto ----
+      - name: Jogo japonês
+        if: contains(fromJSON('["invaders","pacman","galaga","bomberman"]'), steps.pick.outputs.item)
+        uses: Nicsilver/commit-arcade@v1
+        with:
+          outputs: |
+            dist/daily.svg?game=${{ steps.pick.outputs.item }}&theme=neon&background=#0d1117&surface=#0d1117&empty=#1b2129&levels=#4a0d14,#7d111c,#b3141f,#ff2a2a&sprites=#ff6b6b,#ff4d4d,#ffb3b3,#f5efe3&ink=#f5efe3&muted=#8b949e&accent=#e0262f
+
+      # ---- cidade em pixel art (Skyline, tema crimson) ----
+      - name: Preparar Go
+        if: steps.pick.outputs.item == 'skyline'
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Cidade em pixel art
+        if: steps.pick.outputs.item == 'skyline'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: go run github.com/pinkpixel-dev/skyline@latest -theme crimson -svg dist/daily.svg "${{ github.repository_owner }}"
+
+      # ---- mundo em pixel art (GitWorld) ----
+      - name: Mundo em pixel art
+        if: steps.pick.outputs.item == 'gitworld'
+        uses: Dasmat13/git-world-action@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          svg_out_path: dist/daily.svg
+
+      # ---- jardim de sakura (script próprio) ----
+      - name: Jardim de sakura
+        if: steps.pick.outputs.item == 'sakura'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/sakura.py --user "${{ github.repository_owner }}" --out dist/daily.svg
+
+      - name: Conferir resultado
+        run: test -s dist/daily.svg && ls -la dist
+
+      - name: Publicar na branch daily
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: daily
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
