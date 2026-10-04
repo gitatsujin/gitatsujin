@@ -82,20 +82,6 @@ const brenno = {
   </tr>
 </table>
 
-> 🚧 Projetos pessoais chegando em breve.
-
-<p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" /> Estatísticas
-
-<p align="center">
-  <img height="165" src="./profile/top-langs.svg" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=gitatsujin&hide_border=true&locale=pt_BR&background=0D1117&ring=E0262F&fire=E0262F&currStreakNum=F5EFE3&sideNums=F5EFE3&currStreakLabel=E0262F&sideLabels=D4A017&dates=8B949E&stroke=3D0C11" />
-</p>
-
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
 
 <!-- ===================== 侍 FOOTER ===================== -->
