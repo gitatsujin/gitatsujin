@@ -44,13 +44,24 @@ jobs:
           echo "item=$ITEM" >> "$GITHUB_OUTPUT"
           mkdir -p dist
 
-      # ---- jogos japoneses (Commit Arcade), em vermelho e preto ----
-      - name: Jogo japonês
+      # ---- jogos japoneses (Commit Arcade em modo contínuo), em vermelho e preto ----
+      - name: Preparar Node
         if: contains(fromJSON('["invaders","pacman","galaga","bomberman"]'), steps.pick.outputs.item)
-        uses: Nicsilver/commit-arcade@v1
+        uses: actions/setup-node@v4
         with:
-          outputs: |
-            dist/daily.svg?game=${{ steps.pick.outputs.item }}&theme=neon&background=#0d1117&surface=#0d1117&empty=#1b2129&levels=#4a0d14,#7d111c,#b3141f,#ff2a2a&sprites=#ff6b6b,#ff4d4d,#ffb3b3,#f5efe3&ink=#f5efe3&muted=#8b949e&accent=#e0262f
+          node-version: 22
+      - name: Jogo japonês (sem fim de partida)
+        if: contains(fromJSON('["invaders","pacman","galaga","bomberman"]'), steps.pick.outputs.item)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CORES: "theme=neon&background=#0d1117&surface=#0d1117&empty=#1b2129&levels=#4a0d14,#7d111c,#b3141f,#ff2a2a&sprites=#ff6b6b,#ff4d4d,#ffb3b3,#f5efe3&ink=#f5efe3&muted=#8b949e&accent=#e0262f"
+        run: |
+          git clone --quiet https://github.com/Nicsilver/commit-arcade "$RUNNER_TEMP/arcade"
+          git -C "$RUNNER_TEMP/arcade" checkout --quiet 0c3cbcfe51eaedd510112b5347437c1179cbbb3e
+          python3 scripts/arcade_infinito.py "$RUNNER_TEMP/arcade"
+          node "$RUNNER_TEMP/arcade/src/cli.ts" --user "${{ github.repository_owner }}" \
+            --output "$PWD/dist/daily.svg?game=${{ steps.pick.outputs.item }}&$CORES"
+          python3 scripts/alongar_ciclo.py dist/daily.svg 30 2.5
 
       # ---- cidade em pixel art (Skyline, tema crimson) ----
       - name: Preparar Go
