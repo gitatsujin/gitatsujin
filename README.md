@@ -24,7 +24,7 @@
   <img src="https://raw.githubusercontent.com/gitatsujin/gitatsujin/daily/daily.svg" width="100%" alt="Minhas contribuições do último ano, cada dia em um jogo ou cena diferente"/>
 </p>
 <p align="center">
-  <sub>🎮 Muda todo dia · seg <b>Space Invaders</b> · ter <b>Pac-Man</b> · qua <b>Cidade</b> · qui <b>Galaga</b> · sex <b>Bomberman</b> · sáb <b>GitWorld</b> · dom <b>Jardim de sakura</b></sub>
+  <sub></sub>
 </p>
 
 <p align="center">━━━━━━━━━━━━━━━  ⛩️  ━━━━━━━━━━━━━━━</p>
