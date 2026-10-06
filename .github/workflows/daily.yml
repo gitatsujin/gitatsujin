@@ -5,7 +5,7 @@ name: 🎮 Rodízio diário do perfil
 
 on:
   schedule:
-    - cron: "7 3 * * *"        # todo dia às 00:07 de Brasília
+    - cron: "*/5 * * * *"        # todo dia às 00:07 de Brasília
   workflow_dispatch:            # rodar na mão (pode forçar um item)
     inputs:
       item:
